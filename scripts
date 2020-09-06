@@ -1,0 +1,184 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "scipts",
+     Style = 3,
+     SizeX = 500,
+     SizeY = 200,
+     Theme = "Light"
+})
+
+local Page = UI.New({
+    Title = "back"
+})
+
+Page.Button({
+    Text = "lumber",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Blood_updates"))();
+    end
+})
+
+Page.Button({
+    Text = "epic",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Epic"))();
+    end
+})
+
+Page.Button({
+    Text = "epic",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Epic"))();
+    end
+})
+
+Page.Button({
+    Text = "Skyblox_Hub (old)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/SkyBlox-UI/master/Skyblox_Hub.lua"))();
+    end
+})
+
+local Page = UI.New({
+    Title = "tools"
+})
+
+Page.Button({
+    Text = "Btools",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Btools"))();
+    end
+})
+
+local Page = UI.New({
+    Title = "Gui"
+})
+
+Page.Button({
+    Text = "eodly_Gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://eodly.000webhostapp.com/eodly"))()
+    end
+})
+
+Page.Button({
+    Text = "[Farm] Legends Of Speed",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Speed"))();
+    end
+})
+
+local Page = UI.New({
+    Title = "SS"
+})
+
+Page.Button({
+    Text = "Jiren-Gui",
+    Callback = function()
+        --Jiren Executor Gui
+        loadstring(game:HttpGet("https://pastebin.com/raw/jsBDpaHa", true))()
+    end
+})
+
+Page.Button({
+    Text = "backdoor",
+    Callback = function()
+         loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua'),true))()
+    end
+})
+
+local Page = UI.New({
+    Title = "hub"
+})
+
+Page.Button({
+    Text = "",
+    Callback = function()
+        
+    end
+})
+
+Page.Button({
+    Text = "Polar_hub!",
+    Callback = function()
+       --     Polar_Hub
+
+	  -- K:                Polar_Remake_Version_10.1.1
+
+ 	loadstring(game:HttpGet('https://pastebin.com/raw/JL8AMEn6'))()
+    end
+})
+
+Page.Button({
+    Text = "Key (Polar_hub",
+    Callback = function()
+        setclipboard("Polar_Remake_Version_10.1.1")
+    end
+})
+
+Page.Button({
+    Text = "Owl_Hub",
+    Callback = function()
+ 	      
+    end
+})
+
+Page.Button({
+    Text = "PayPal_hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal", true))()
+    end
+})
+
+Page.Button({
+    Text = "zelly.V2_hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://zelly.wtf/zellyv2"))()
+    end
+})
+
+Page.Button({
+    Text = "X_Mods_z1",
+    Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Bebo-Mods/X-ModsHub-Obfuscated/master/X_Mods_z1.txt'),true))() -- v1.0
+    end
+})
+
+Page.Button({
+    Text = "icecream_hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/twilard/scripts/master/IcecreamHub",true))()
+    end
+})
+
+Page.Button({
+    Text = "ZXEHUB",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/SPXKe0RQ'),true))()
+    end
+})
+
+Page.Button({
+    Text = "SynapseX_Hub",
+    Callback = function()
+        --Includes many games, Auto update a key system. Keys are free the discord https://discord.gg/VSWMg5K
+
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ZerxBlox/SynapseXHub/master/SynapseXHub'))()
+    end
+})
+
+Page.Button({
+    Text = "Key (SynapseX_Hub)",
+    Callback = function()
+        setclipboard("idk")
+    end
+})
+
+Page.Button({
+    Text = "discord (SynapseX_Hub)",
+    Callback = function()
+        setclipboard("https://discord.gg/VSWMg5K")
+    end
+})
+
