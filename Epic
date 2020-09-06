@@ -49,11 +49,11 @@ Page.Button({
 })
 
 local Page = UI.New({
-    Title = "Destiny"
+    Title = "lumber Tycoon 2"
 })
 
 Page.Button({
-    Text = "OPM: Destiny",
+    Text = "Lumber tycoon 2",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Blood_updates"))();
     end
