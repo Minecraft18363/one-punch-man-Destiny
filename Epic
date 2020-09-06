@@ -1,0 +1,44 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "One Punch Man: Destiny",
+     Style = 3,
+     SizeX = 400,
+     SizeY = 100,
+     Theme = "Light"
+})
+
+local Page = UI.New({
+    Title = "Destiny"
+})
+
+Page.Button({
+    Text = "OPM: Destiny",
+    Callback = function()
+        loadstring(game:HttpGet(("https://maxv.ml/uploads/opmd.lua")))()
+    end
+})
+
+local Page = UI.New({
+    Title = "Polar_hub"
+})
+
+Page.Button({
+    Text = "Polar_hub!",
+    Callback = function()
+       --     Polar_Hub
+
+	  -- K:                Polar_Remake_Version_10.1.1
+
+ 	loadstring(game:HttpGet('https://pastebin.com/raw/JL8AMEn6'))()
+    end
+})
+
+Page.Button({
+    Text = "Key (Polar_hub",
+    Callback = function()
+        setclipboard("Polar_Remake_Version_10.1.1")
+    end
+})
+
+
