@@ -41,8 +41,19 @@ local Page = UI.New({
 })
 
 Page.Button({
-    Text = "OPM: Destiny",
+    Text = "Blood",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"))();
+    end
+})
+
+local Page = UI.New({
+    Title = "onther"
+})
+
+Page.Button({
+    Text = "onther",
+    Callback = function()
+        setclipboard("idk")
     end
 })
