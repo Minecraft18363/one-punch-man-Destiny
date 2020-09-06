@@ -9,7 +9,7 @@ local UI = Material.Load({
 })
 
 local Page = UI.New({
-    Title = "lumber Tycoon 2"
+    Title = "UI's"
 })
 
 Page.Button({
@@ -17,6 +17,13 @@ Page.Button({
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Blood_updates"))();
     end
+})
+
+Page.Button({
+    Text = "scripts",
+    Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/scripts"))();
+end
 })
 
 local Page = UI.New({
