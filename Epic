@@ -47,3 +47,14 @@ Page.Button({
         setclipboard("Polar_Remake_Version_10.1.1")
     end
 })
+
+local Page = UI.New({
+    Title = "Destiny"
+})
+
+Page.Button({
+    Text = "OPM: Destiny",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Blood_updates"))();
+    end
+})
