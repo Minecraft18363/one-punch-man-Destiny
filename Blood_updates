@@ -9,6 +9,17 @@ local UI = Material.Load({
 })
 
 local Page = UI.New({
+    Title = "back"
+})
+
+Page.Button({
+    Text = "Epic",
+    Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Epic"))();
+end
+})
+
+local Page = UI.New({
     Title = "VIP Lumber"
 })
 
