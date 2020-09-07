@@ -1,0 +1,10 @@
+local plr = game.Players.LocalPlayer
+local mouseignore = game.Workspace.MouseIgnore
+
+while true do
+wait(5)
+if mouseignore:FindFirstChild("ChikaraCrate") then
+local ChikaraCrate = mouseignore:FindFirstChild("ChikaraCrate")
+fireclickdetector(ChikaraCrate.ClickBox.ClickDetector)
+end
+end
