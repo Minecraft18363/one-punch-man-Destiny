@@ -69,6 +69,20 @@ Page.Button({
     end
 })
 
+Page.Button({
+    Text = "bubbleGunSim",
+    Callback = function()
+        loadstring(game:HttpGet(("http://zerotwo.ga/script/game/"),true))()
+    end
+})
+
+Page.Button({
+    Text = "BladeThrowing",
+    Callback = function()
+        loadstring(game:HttpGet(("https://system-exodus.com/scripts/bladethrowing/BladeThrowing.lua"),true))()
+    end
+})
+
 local Page = UI.New({
     Title = "SS"
 })
@@ -182,3 +196,13 @@ Page.Button({
     end
 })
 
+local Page = UI.New({
+    Title = "trash"
+})
+
+Page.Button({
+    Text = "Chikara",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Chikara"))();
+    end
+})
