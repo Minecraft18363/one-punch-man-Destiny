@@ -38,6 +38,13 @@ Page.Button({
 })
 
 Page.Button({
+    Text = "OPM: Destiny (my brother use this)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/instant-tp-to-onthers-(one-punch-man)"))();
+    end
+})
+
+Page.Button({
     Text = "autofarm",
     Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/instand-tp-autofarm"))();
