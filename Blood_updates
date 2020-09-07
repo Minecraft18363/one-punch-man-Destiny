@@ -20,9 +20,9 @@ end
 })
 
 Page.Button({
-    Text = "scripts",
+    Text = "Lumber",
     Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/scripts"))();
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Blood_updates"))();
 end
 })
 
@@ -47,6 +47,7 @@ Page.Button({
      setclipboard("https://www.roblox.com/games/1224212277/INFECTION-Mad-City?privateServerLinkCode=vdgA2LRcy00fK0w55p6WOapWktxUBFJX")
 end
 })
+
 Page.Button({
     Text = "islands vip server",
     Callback = function()
@@ -55,7 +56,7 @@ end
 })
 
 local Page = UI.New({
-    Title = "Blood"
+    Title = "Gui"
 })
 
 Page.Button({
@@ -65,8 +66,45 @@ Page.Button({
     end
 })
 
+Page.Button({
+    Text = "bark",
+    Callback = function()
+        loadstring(game:HttpGet("https://dogix.cf/scripts/lt2/bark",true))()
+    end
+})
+
+Page.Button({
+    Text = "",
+    Callback = function()
+        
+    end
+})
+
 local Page = UI.New({
-    Title = "onther"
+    Title = "tools"
+})
+
+
+Page.Button({
+    Text = "dupe items",
+    Callback = function()
+        loadstring(game:HttpGet("https://ramhub.club/DupeObfus.txt", true))()
+    end
+})
+
+local Page = UI.New({
+    Title = "onther scripts"
+})
+
+Page.Button({
+    Text = "onther",
+    Callback = function()
+        setclipboard("idk")
+    end
+})
+
+local Page = UI.New({
+    Title = "onther tools"
 })
 
 Page.Button({
