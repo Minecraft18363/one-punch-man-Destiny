@@ -4,7 +4,7 @@ local UI = Material.Load({
      Title = "One Punch Man: Destiny",
      Style = 3,
      SizeX = 500,
-     SizeY = 200,
+     SizeY = 350,
      Theme = "Light"
 })
 
