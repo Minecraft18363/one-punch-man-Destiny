@@ -54,7 +54,7 @@ local Page = UI.New({
 Page.Button({
     Text = "exodus/hub",
     Callback = function()
-     https://www.system-exodus.com/hub.html
+     setclipboard("https://www.system-exodus.com/hub.html")
 end
 })
 
