@@ -27,6 +27,13 @@ Page.Button({
 })
 
 Page.Button({
+    Text = "exodus-system",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/system-exodus.com"))();
+    end
+})
+
+Page.Button({
     Text = "Lumber tycoon 2",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Blood_updates"))();
