@@ -83,6 +83,35 @@ local A = Y.Button({
 	}
 })
 
+local A = C.Button({
+	Text = "icecream_Hub (discord)",
+	Callback = function()
+		setclipboard("")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "added: not discord yet"
+			})
+		end
+	}
+})
+
+local A = W.Button({
+	Text = "icecream_Hub (Key)",
+	Callback = function()
+		setclipboard("BarKBjyKHoFVRfVoyWCHbfvRGWcVEq")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "added: The key is to prevent people from taking the script and leaving. It changes every 2 days!"
+				Text = "added: "+ Arsenal +Prison Life +Counter Blox + Whatever Floats Your Boat + Speed Run 4 + Speed Run Simulator + Tower Of Hell + Big Paintball + Unit: Classified + Pistol 1v1 + Nerf FPS + Breaking Point + Flee The Facility + Build A Boat For Treasure + Strucid + Jailbreak + Lumber Tycoon 2 + Vehicle Simulator + Murder Mystery 2 + Critical Strike + The Dropper + Driving Simulator + PolyGuns + Wild West + Beat Up Simulator (Multiplayer) + Shootout + Weaponry"
+			})
+		end
+	}
+})
+
 local A = W.Button({
 	Text = "Polar_Hub (Key)",
 	Callback = function()
