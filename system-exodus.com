@@ -13,6 +13,13 @@ local Page = UI.New({
 })
 
 Page.Button({
+    Text = "Script_HubV2t",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Script_HubV2"))();
+    end
+})
+
+Page.Button({
     Text = "Example",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ChrisvanChip/MaterialLua/master/Example.lua"))();
