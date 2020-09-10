@@ -4,7 +4,7 @@ local X = Material.Load({
 	Title = "scripts_hub",
 	Style = 4,
 	SizeX = 400,
-	SizeY = 400,
+	SizeY = 350,
 	Theme = "Light",
 	ColorOverrides = {
 		MainFrame = Color3.fromRGB(235,235,235)
@@ -106,249 +106,20 @@ local A = W.Button({
 		Information = function(self)
 			X.Banner({
 				Text = "added: The key is to prevent people from taking the script and leaving. It changes every 2 days!"
+			})
+		end
+	}
+})
+
+local A = W.Button({
+	Text = "icecream_Hub (games)",
+	Callback = function()
+		setclipboard("text")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
 				Text = "added: + Arsenal +Prison Life +Counter Blox + Whatever Floats Your Boat + Speed Run 4 + Speed Run Simulator + Tower Of Hell + Big Paintball + Unit: Classified + Pistol 1v1 + Nerf FPS + Breaking Point + Flee The Facility + Build A Boat For Treasure + Strucid + Jailbreak + Lumber Tycoon 2 + Vehicle Simulator + Murder Mystery 2 + Critical Strike + The Dropper + Driving Simulator + PolyGuns + Wild West + Beat Up Simulator (Multiplayer) + Shootout + Weaponry"
-			})
-		end
-	}
-})
-
-local A = W.Button({
-	Text = "Polar_Hub (Key)",
-	Callback = function()
-		setclipboard("Polar_Remake_Version_10.1.1")
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "added key"
-			})
-		end
-	}
-})
-
-
-
-local A = C.Button({
-	Text = "Polar_Hub (discord)",
-	Callback = function()
-		setclipboard("")
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "added: not discord yet"
-			})
-		end
-	}
-})
-
-local A = W.Button({
-	Text = "Owl_Hub (Key)",
-	Callback = function()
-		setclipboard("")
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "no key"
-			})
-		end
-	}
-})
-
-local A = C.Button({
-	Text = "_Hub (discord)",
-	Callback = function()
-		setclipboard("")
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = ""
-			})
-		end
-	}
-})
-
-local A = W.Button({
-	Text = "SynapseX_Hub (Key)",
-	Callback = function()
-		setclipboard("")
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "Keys are free  - Key is not added yet"
-			})
-		end
-	}
-})
-
-local A = C.Button({
-	Text = "SynapseX_Hub (discord)",
-	Callback = function()
-		setclipboard("https://discord.gg/VSWMg5K")
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "Keys are free in the discord"
-			})
-		end
-	}
-})
-
-
-local A = Z.Button({
-	Text = "Magik Hub",
-	Callback = function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/skeletalz/Magik-Hub/master/Loader.lua'))() 
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "added: + Lumber Tycoon 2 + Piggy + SCP 3008"
-			})
-		end
-	}
-})
-
-local A = Z.Button({
-	Text = "SynapseX_Hub",
-	Callback = function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/ZerxBlox/SynapseXHub/master/SynapseXHub'))()
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "Includes many games, Auto update a key system."
-			})
-		end
-	}
-})
-
-local A = Z.Button({
-	Text = "ZXEHUB",
-	Callback = function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/SPXKe0RQ'),true))()
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "added:  - idk"
-			})
-		end
-	}
-})
-
-local A = Z.Button({
-	Text = "",
-	Callback = function()
-		
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = ""
-			})
-		end
-	}
-})
-
-local A = Z.Button({
-	Text = "zelly.V2_hub",
-	Callback = function()
-		loadstring(game:HttpGet("https://zelly.wtf/zellyv2"))()
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "added:  - idk"
-			})
-		end
-	}
-})
-
-
-local A = Z.Button({
-	Text = "PayPal_hub",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal", true))()
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "added:  - idk"
-			})
-		end
-	}
-})
-
-local A = Z.Button({
-	Text = "X_Mods_z1",
-	Callback = function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Bebo-Mods/X-ModsHub-Obfuscated/master/X_Mods_z1.txt'),true))() -- v1.0
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "added:  - idk"
-			})
-		end
-	}
-})
-
-local A = Z.Button({
-	Text = "icecream_hub",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/twilard/scripts/master/IcecreamHub",true))()
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "added:  - idk"
-			})
-		end
-	}
-})
-
-local A = Z.Button({
-	Text = "Polar_hub",
-	Callback = function()
-		loadstring(game:HttpGet('https://pastebin.com/raw/JL8AMEn6'))()
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "added: - idk"
-			})
-		end
-	}
-})
-
-local A = Z.Button({
-	Text = "Owl_Hub",
-	Callback = function()
-		
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "universial (not added)"
-			})
-		end
-	}
-})
-
-local A = Z.Button({
-	Text = "",
-	Callback = function()
-		
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = ""
 			})
 		end
 	}
