@@ -30,7 +30,7 @@ local C = X.New({
 local A = Y.Button({
 	Text = "Epic",
 	Callback = function()
-		loadstring(game:HttpGet(""))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Epic"))();
 	end,
 	Menu = {
 		Information = function(self)
@@ -44,7 +44,7 @@ local A = Y.Button({
 local A = Y.Button({
 	Text = "Lumber",
 	Callback = function()
-		loadstring(game:HttpGet(""))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Blood_updates"))();
 	end,
 	Menu = {
 		Information = function(self)
@@ -58,7 +58,7 @@ local A = Y.Button({
 local A = Y.Button({
 	Text = "Scripts",
 	Callback = function()
-		loadstring(game:HttpGet(""))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/scripts"))();
 	end,
 	Menu = {
 		Information = function(self)
