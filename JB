@@ -1,0 +1,150 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local X = Material.Load({
+	Title = "JB_gui",
+	Style = 3,
+	SizeX = 500,
+	SizeY = 350,
+	Theme = "Light",
+	ColorOverrides = {
+		MainFrame = Color3.fromRGB(235,235,235)
+	}
+})
+
+local U = X.New({
+	Title = "UI's"
+})
+
+local A = U.Button({
+	Text = "Epic",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Epic"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "One Punch Destiny"
+			})
+		end
+	}
+})
+
+local A = U.Button({
+	Text = "Lumber",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Blood_updates"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "added: + Blood + Bark and more..."
+			})
+		end
+	}
+})
+
+local A = U.Button({
+	Text = "Scripts",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/scripts"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "added: + Gui + SS Script + trash"
+			})
+		end
+	}
+})
+
+local A = U.Button({
+	Text = "exodus-system",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/system-exodus.com"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Island"
+			})
+		end
+	}
+})
+
+local Y = X.New({
+	Title = "Jailbreak"
+})
+
+local Z = X.New({
+	Title = "Jailbreak Tools"
+})
+
+local A = Y.Dropdown({
+	Text = "",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+		"",
+		"",
+		"",
+		"",
+		""
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
+})
+
+local B = Y.Button({
+	Text = "",
+	Callback = function()
+		
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
+})
+
+local A = Y.Dropdown({
+	Text = "",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+		"",
+		"",
+		"",
+		"",
+		""
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
+})
+
+local B = Y.Button({
+	Text = "",
+	Callback = function()
+		
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
+})
