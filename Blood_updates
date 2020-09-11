@@ -1,129 +1,415 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
-local UI = Material.Load({
-     Title = "Lumber Tycoon 2",
-     Style = 3,
-     SizeX = 500,
-     SizeY = 200,
-     Theme = "Light"
+local X = Material.Load({
+	Title = "Lumber Tycoon 2",
+	Style = 4,
+	SizeX = 400,
+	SizeY = 350,
+	Theme = "Light",
+	ColorOverrides = {
+		MainFrame = Color3.fromRGB(235,235,235)
+	}
 })
 
-local Page = UI.New({
-    Title = "UI's"
+local Y = X.New({
+	Title = "UI's"
 })
 
-Page.Button({
-    Text = "Script_HubV2t",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Script_HubV2"))();
-    end
+local U = X.New({
+	Title = "games Updates"
 })
 
-Page.Button({
-    Text = "exodus-system",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/system-exodus.com"))();
-    end
+local G = X.New({
+	Title = "games"
 })
 
-Page.Button({
-    Text = "Epic",
-    Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Epic"))();
-end
+local Z = X.New({
+	Title = "Gui"
 })
 
-Page.Button({
-    Text = "Lumber",
-    Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Blood_updates"))();
-end
+local W = X.New({
+	Title = "Script (keys)"
 })
 
-local Page = UI.New({
-    Title = "VIP Lumber"
+local C = X.New({
+	Title = "discord"
 })
 
-Page.Button({
-    Text = "vip server",
-    Callback = function()
-     setclipboard("https://www.roblox.com/games/13822889/Lumber-Tycoon-2?privateServerLinkCode=FMIRhPElfkD2zHXUbDKaGbnL9XjsRi2m")
-end
+local V = X.New({
+	Title = "VIP Server (Lumber)"
 })
 
-local Page = UI.New({
-    Title = "VIP other"
+local O = X.New({
+	Title = "VIP Server (other)"
 })
 
-Page.Button({
-    Text = "mad city vip server",
-    Callback = function()
-     setclipboard("https://www.roblox.com/games/1224212277/INFECTION-Mad-City?privateServerLinkCode=vdgA2LRcy00fK0w55p6WOapWktxUBFJX")
-end
+local T = X.New({
+	Title = "Tools (onther)"
 })
 
-Page.Button({
-    Text = "islands vip server",
-    Callback = function()
-     setclipboard("https://www.roblox.com/games/4872321990/Islands-BEES?privateServerLinkCode=TpnZLV7W_L7DsVQDZcvG7WtVHfbVyBDi")
-end
+local Z = X.New({
+	Title = "Script (onther)"
 })
 
-local Page = UI.New({
-    Title = "Gui"
+local A = Y.Button({
+	Text = "Script_HubV2",
+	Callback = function()
+		loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Script_HubV2"))();"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Script_HubV2"
+			})
+		end
+	}
 })
 
-Page.Button({
-    Text = "Blood",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"))();
-    end
+local A = Y.Button({
+	Text = "Epic",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Epic"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "One Punch Destiny"
+			})
+		end
+	}
 })
 
-Page.Button({
-    Text = "bark",
-    Callback = function()
-        loadstring(game:HttpGet("https://dogix.cf/scripts/lt2/bark",true))()
-    end
+local A = Y.Button({
+	Text = "Lumber",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Blood_updates"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "added: + Blood + Bark and more..."
+			})
+		end
+	}
 })
 
-Page.Button({
-    Text = "",
-    Callback = function()
-        
-    end
+local A = Y.Button({
+	Text = "Scripts",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/scripts"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "added: + Gui + SS Script + trash"
+			})
+		end
+	}
 })
 
-local Page = UI.New({
-    Title = "tools"
+local A = Y.Button({
+	Text = "exodus-system",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/system-exodus.com"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
 })
 
-
-Page.Button({
-    Text = "dupe items",
-    Callback = function()
-        loadstring(game:HttpGet("https://ramhub.club/DupeObfus.txt", true))()
-    end
+local A = V.Button({
+	Text = "vip server (lumber)",
+	Callback = function()
+		setclipboard("https://www.roblox.com/games/13822889/Lumber-Tycoon-2?privateServerLinkCode=FMIRhPElfkD2zHXUbDKaGbnL9XjsRi2m")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "vip server (lumber)"
+			})
+		end
+	}
 })
 
-local Page = UI.New({
-    Title = "onther scripts"
+local O = C.Button({
+	Text = "VIP Server (onther)",
+	Callback = function()
+		setclipboard("")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
 })
 
-Page.Button({
-    Text = "onther",
-    Callback = function()
-        setclipboard("idk")
-    end
+local A = C.Button({
+	Text = "",
+	Callback = function()
+		setclipboard("")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
 })
 
-local Page = UI.New({
-    Title = "onther tools"
+local A = W.Button({
+	Text = "(key)",
+	Callback = function()
+		setclipboard("")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
 })
 
-Page.Button({
-    Text = "onther",
-    Callback = function()
-        setclipboard("idk")
-    end
+local B = U.Dropdown({
+	Text = "_Hub (games Updates)",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+
+		"",
+		"",
+
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "nope"
+			})
+		end
+	}
 })
+
+local C = U.Dropdown({
+	Text = "_Hub (games Updates)",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+
+		"",
+		"",
+
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "nope"
+			})
+		end
+	}
+})
+
+local D = U.Dropdown({
+	Text = "_Hub (games Updates)",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+
+		"",
+		"",
+
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "nope"
+			})
+		end
+	}
+})
+
+local E = U.Dropdown({
+	Text = " (games Updates)",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+
+		"",
+		"",
+
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "nope"
+			})
+		end
+	}
+})
+
+local F = U.Dropdown({
+	Text = " (games Updates)",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+
+		"",
+		"",
+
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "nope"
+			})
+		end
+	}
+})
+
+local G = U.Dropdown({
+	Text = "_Hub (games Updates)",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+
+		"",
+		"",
+
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "nope"
+			})
+		end
+	}
+})
+
+local H = U.Dropdown({
+	Text = " (games Updates)",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+
+		"",
+		"",
+
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "nope"
+			})
+		end
+	}
+})
+
+local I = U.Dropdown({
+	Text = "_Hub (games Updates)",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+
+		"",
+		"",
+
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "nope"
+			})
+		end
+	}
+})
+
+local J = U.Dropdown({
+	Text = "_Hub (games Updates)",
+	Callback = function(Value)
+		print(Value)
+	end,
+	Options = {
+
+		"",
+		"",
+
+	},
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "nope"
+			})
+		end
+	}
+})
+
+local A = T.Button({
+	Text = "Dupe Items",
+	Callback = function()
+		loadstring(game:HttpGet("https://ramhub.club/DupeObfus.txt", true))()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Dupe "
+			})
+		end
+	}
+})
+
+local A = O.Button({
+	Text = "vip server (mad city)",
+	Callback = function()
+		setclipboard("https://www.roblox.com/games/1224212277/INFECTION-Mad-City?privateServerLinkCode=vdgA2LRcy00fK0w55p6WOapWktxUBFJX")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "mad city vip server"
+			})
+		end
+	}
+})
+
+local A = Z.Button({
+	Text = "Blood (Gui)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Blood"
+			})
+		end
+	}
+})
+
+local A = Z.Button({
+	Text = "Bark (Gui)",
+	Callback = function()
+		loadstring(game:HttpGet("https://dogix.cf/scripts/lt2/bark",true))()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Bark"
+			})
+		end
+	}
+})
+
