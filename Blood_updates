@@ -3,8 +3,8 @@ local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinl
 local X = Material.Load({
 	Title = "Lumber Tycoon 2",
 	Style = 4,
-	SizeX = 500,
-	SizeY = 400,
+	SizeX = 300,
+	SizeY = 350,
 	Theme = "Light",
 	ColorOverrides = {
 		MainFrame = Color3.fromRGB(235,235,235)
@@ -47,8 +47,40 @@ local T = X.New({
 	Title = "Tools (onther)"
 })
 
-local Z = X.New({
+local L = X.New({
 	Title = "Script (onther)"
+})
+
+local P = X.New({
+	Title = "Tools"
+})
+
+local A = Z.Button({
+	Text = "Blood (Gui)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Blood"
+			})
+		end
+	}
+})
+
+local B = Z.Button({
+	Text = "Bark (Gui)",
+	Callback = function()
+		loadstring(game:HttpGet("https://dogix.cf/scripts/lt2/bark",true))()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Bark"
+			})
+		end
+	}
 })
 
 local A = Y.Button({
@@ -135,7 +167,7 @@ local A = V.Button({
 	}
 })
 
-local O = C.Button({
+local A = O.Button({
 	Text = "VIP Server (onther)",
 	Callback = function()
 		setclipboard("")
@@ -149,7 +181,7 @@ local O = C.Button({
 	}
 })
 
-local A = C.Button({
+local A = O.Button({
 	Text = "",
 	Callback = function()
 		setclipboard("")
@@ -384,32 +416,3 @@ local A = O.Button({
 		end
 	}
 })
-
-local A = Z.Button({
-	Text = "Blood (Gui)",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"))();
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "Blood"
-			})
-		end
-	}
-})
-
-local A = Z.Button({
-	Text = "Bark (Gui)",
-	Callback = function()
-		loadstring(game:HttpGet("https://dogix.cf/scripts/lt2/bark",true))()
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "Bark"
-			})
-		end
-	}
-})
-
