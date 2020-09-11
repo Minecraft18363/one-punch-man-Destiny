@@ -54,7 +54,7 @@ local Z = X.New({
 local A = Y.Button({
 	Text = "Script_HubV2",
 	Callback = function()
-		loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Script_HubV2"))();"))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/Script_HubV2"))();
 	end,
 	Menu = {
 		Information = function(self)
