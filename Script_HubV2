@@ -119,15 +119,48 @@ local A = W.Button({
 	}
 })
 
-local A = U.Button({
+local A = U.Dropdown({
 	Text = "icecream_Hub (games Updates)",
-	Callback = function()
-		setclipboard("text")
+	Callback = function(Value)
+		print(Value)
 	end,
+	Options = {
+		"ADDED:",
+		"+ Arsenal",
+		"+ Prison Life",
+		"+ Counter Blox",
+		"+ Counter Blox",
+		"+ Whatever Floats Your Boat",
+		"+ Speed Run 4",
+		"+ Speed Run Simulator",
+		"+ Tower Of Hell",
+		"+ Big Paintball",
+		"+ Unit: Classified",
+		"+ Pistol 1v1",
+		"+ Nerf FPS",
+		"+ Breaking Point",
+		"+ Flee The Facility",
+		"+ Build A Boat For Treasure",
+		"+ Strucid+ Jailbreak",
+		"+ Lumber Tycoon 2",
+		"+ Vehicle Simulator",
+		"+ Murder Mystery 2",
+		"+ Critical Strike",
+		"+ The Dropper",
+		"+ Driving Simulator",
+		"+ PolyGuns",
+		"+ Wild West",
+		"+ Beat Up Simulator (Multiplayer)",
+		"+ Shootout",
+		"+ Weaponry",
+		"",
+		"",
+
+	},
 	Menu = {
 		Information = function(self)
 			X.Banner({
-				Text = "added: + Arsenal +Prison Life +Counter Blox + Whatever Floats Your Boat + Speed Run 4 + Speed Run Simulator + Tower Of Hell + Big Paintball + Unit: Classified + Pistol 1v1 + Nerf FPS + Breaking Point + Flee The Facility + Build A Boat For Treasure + Strucid + Jailbreak + Lumber Tycoon 2 + Vehicle Simulator + Murder Mystery 2 + Critical Strike + The Dropper + Driving Simulator + PolyGuns + Wild West + Beat Up Simulator (Multiplayer) + Shootout + Weaponry"
+				Text = "nope"
 			})
 		end
 	}
