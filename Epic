@@ -73,6 +73,13 @@ Page.Button({
 })
 
 Page.Button({
+    Text = "OPM: Destiny Haxx",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/UbJ4jQHF"))()
+    end
+})
+
+Page.Button({
     Text = "OPM: Destiny useless",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/instant-tp-to-onthers-(one-punch-man)"))();
