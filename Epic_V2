@@ -1,0 +1,40 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "One Punch Man: Destiny",
+     Style = 3,
+     SizeX = 500,
+     SizeY = 350,
+     Theme = "Light"
+})
+
+local Page = UI.New({
+    Title = "Destiny"
+})
+
+Page.Button({
+    Text = "OPM: Destiny better  (istant tp metode script)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minecraft18363/one-punch-man-Destiny/master/OPM-Destiny-XD"))();
+    end
+})
+
+local Page = UI.New({
+    Title = "Polar_hub"
+})
+
+Page.Button({
+    Text = "Polar_hub (Script)",
+    Callback = function()
+        --     Polar_Hub
+
+ 	      loadstring(game:HttpGet("https://polarhub.xyz/PolarFreeScript/NormalScript.lua"))()
+    end
+})
+
+Page.Button({
+    Text = "Polar_hub (Key)",
+    Callback = function()
+        setclipboard("Polar_IS_THE_BEST")
+    end
+})
