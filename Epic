@@ -98,20 +98,18 @@ local Page = UI.New({
 })
 
 Page.Button({
-    Text = "Polar_hub!",
+    Text = "Polar_hub (Script)",
     Callback = function()
-       --     Polar_Hub
+        --     Polar_Hub
 
-	  -- K:                Polar_Remake_Version_10.1.1
-
- 	loadstring(game:HttpGet('https://pastebin.com/raw/JL8AMEn6'))()
+ 	      loadstring(game:HttpGet("https://polarhub.xyz/PolarFreeScript/NormalScript.lua"))()
     end
 })
 
 Page.Button({
-    Text = "Key (Polar_hub",
+    Text = "Polar_hub (Key)",
     Callback = function()
-        setclipboard("Polar_Remake_Version_10.1.1")
+        setclipboard("Polar_IS_THE_BEST")
     end
 })
 
